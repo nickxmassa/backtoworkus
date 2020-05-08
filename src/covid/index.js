@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "react-bootstrap/Card";
 
 class CovidStats extends Component {
   constructor(props) {
@@ -41,10 +42,13 @@ class CovidStats extends Component {
       return <div>Loading...</div>;
     } else {
       return (
+        <Card body>
         <div>
           <p>State: {stateData[0].state}</p>
           <p>Positives: {stateData[0].positive}</p>
+          <p>Total Tested: {stateData[0].totalTestResults}</p>
         </div>
+        </Card>
       );
     }
   }

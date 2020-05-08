@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Card from "react-bootstrap/Card";
+import StateData from '../data/stateData.json';
 
 class News extends Component {
   constructor(props) {
@@ -11,9 +13,20 @@ class News extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if(prevProps.location.pathname.substr(1).toUpperCase() !== this.props.location.pathname.substr(1).toUpperCase()) {
-    const stateSearch = this.props.location.pathname.substr(1).toUpperCase();
-    fetch("https://newsapi.org/v2/everything?q=reopen " + stateSearch + " OR back to work " + stateSearch + "&apiKey=06553d518dfd4131a5fa14c25598cfaa")
+    if(prevProps.location.full !== this.props.location.full) {
+
+      const stateAbbr = this.props.location.pathname.substr(1).toUpperCase();
+      const searchTerms = [];
+      searchTerms.push("reopen " + StateData[0].states[stateAbbr].state);
+      searchTerms.push("back to work " + StateData[0].states[stateAbbr].state);
+      searchTerms.push("covid " + StateData[0].states[stateAbbr].state);
+      searchTerms.push("covid-19 " + StateData[0].states[stateAbbr].state);
+      searchTerms.push(StateData[0].states[stateAbbr].governor);
+
+      const query = searchTerms.join(" OR ");
+
+    const stateSearch = this.props.location.full;
+    fetch("https://newsapi.org/v2/everything?q=" + query + "&apiKey=06553d518dfd4131a5fa14c25598cfaa")
       .then(res => res.json())
       .then(
         (result) => {
@@ -44,6 +57,7 @@ class News extends Component {
       return <div>Loading...</div>;
     } else {
       return (
+        <Card body>
         <ul>
           {items.map(item => (
             <li key={item.source.url}>
@@ -51,6 +65,7 @@ class News extends Component {
             </li>
           ))}
         </ul>
+        </Card>
       );
     }
   }

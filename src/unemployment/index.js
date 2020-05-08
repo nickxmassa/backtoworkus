@@ -6,6 +6,7 @@ import {
   Link,
   useParams
 } from "react-router-dom";
+import Card from "react-bootstrap/Card";
 
 class Unemployment extends Component {
   constructor(props) {
@@ -17,7 +18,9 @@ class Unemployment extends Component {
     const link = "https://www.careeronestop.org/LocalHelp/UnemploymentBenefits/Find-Unemployment-Benefits.aspx?location=" + stateAbbr;
       return (
         <div>
-          <a href={ link } target="_blank">{ stateAbbr } Unemployment Benefits</a>
+          <Card body>
+            <a href={ link } target="_blank">{ stateAbbr } Unemployment Benefits</a>
+          </Card>
         </div>
       );
   }
