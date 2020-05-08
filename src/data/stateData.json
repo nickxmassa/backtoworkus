@@ -26,10 +26,120 @@
         "abbr": "CA",
         "governor": "Gavin Newsom"
       },
+      "CO": {
+        "state": "Colorado",
+        "abbr": "CO",
+        "governor": "Jared Polis"
+      },
+      "CT": {
+        "state": "Connecticut",
+        "abbr": "CT",
+        "governor": "Ned Lamont"
+      },
+      "DE": {
+        "state": "Delaware",
+        "abbr": "DE",
+        "governor": "John Carney"
+      },
+      "FL": {
+        "state": "Florida",
+        "abbr": "FL",
+        "governor": "Ron DeSantis"
+      },
+      "GA": {
+        "state": "Georgia",
+        "abbr": "GA",
+        "governor": "Brian Kemp"
+      },
+      "HI": {
+        "state": "Hawaii",
+        "abbr": "HI",
+        "governor": "David Ige"
+      },
+      "ID": {
+        "state": "Idaho",
+        "abbr": "ID",
+        "governor": "Brad Little"
+      },
+      "IL": {
+        "state": "Illinois",
+        "abbr": "IL",
+        "governor": "J.B. Pritzker"
+      },
+      "IN": {
+        "state": "Indiana",
+        "abbr": "IN",
+        "governor": "Eric Holcomb"
+      },
+      "IA": {
+        "state": "Iowa",
+        "abbr": "IA",
+        "governor": "Kim Reynolds"
+      },
+      "KS": {
+        "state": "Kansas",
+        "abbr": "KS",
+        "governor": "Laura Kelly"
+      },
+      "KY": {
+        "state": "Kentucky",
+        "abbr": "KY",
+        "governor": "Andy Beshear"
+      },
+      "LA": {
+        "state": "Louisiana",
+        "abbr": "LA",
+        "governor": "John Bel Edwards"
+      },
       "AK": {
         "state": "Alaska",
         "abbr": "AK",
         "governor": "Mike Dunleavy"
+      },
+      "ME": {
+        "state": "Maine",
+        "abbr": "ME",
+        "governor": "Janet Mills"
+      },
+      "MD": {
+        "state": "Maryland",
+        "abbr": "MD",
+        "governor": "Larry Hogan"
+      },
+      "MA": {
+        "state": "Massachusetts",
+        "abbr": "MA",
+        "governor": "Charlie Baker"
+      },
+      "MI": {
+        "state": "Michigan",
+        "abbr": "MI",
+        "governor": "Gretchen Whitmer"
+      },
+      "AK": {
+        "state": "Alaska",
+        "abbr": "AK",
+        "governor": "Mike Dunleavy"
+      },
+      "MN": {
+        "state": "Minnesota",
+        "abbr": "MN",
+        "governor": "Tim Walz"
+      },
+      "MS": {
+        "state": "Mississippi",
+        "abbr": "MS",
+        "governor": "Tate Reeves"
+      },
+      "MO": {
+        "state": "Missouri",
+        "abbr": "MO",
+        "governor": "Mike Parson"
+      },
+      "MT": {
+        "state": "Montana",
+        "abbr": "MT",
+        "governor": "Steve Bullock"
       },
       "AK": {
         "state": "Alaska",
@@ -41,220 +151,125 @@
         "abbr": "AK",
         "governor": "Mike Dunleavy"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "NE": {
+        "state": "Nebraska",
+        "abbr": "NE",
+        "governor": "Pete Ricketts"
+      },
+      "NV": {
+        "state": "Nevada",
+        "abbr": "NV",
+        "governor": "Steve Sisolak"
+      },
+      "NH": {
+        "state": "New Hampshire",
+        "abbr": "NH",
+        "governor": "Chris Sununu"
+      },
+      "NJ": {
+        "state": "New Jersey",
+        "abbr": "NJ",
+        "governor": "Phil Murphy"
+      },
+      "NM": {
+        "state": "New Mexico",
+        "abbr": "NM",
+        "governor": "Michelle Lujan Grisham"
       },
       "AK": {
         "state": "Alaska",
         "abbr": "AK",
         "governor": "Mike Dunleavy"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "NY": {
+        "state": "New York",
+        "abbr": "NY",
+        "governor": "Andrew Cuomo"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "NC": {
+        "state": "North Carolina",
+        "abbr": "NC",
+        "governor": "Roy Cooper"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "ND": {
+        "state": "North Dakota",
+        "abbr": "ND",
+        "governor": "Doug Burgum"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "OH": {
+        "state": "Ohio",
+        "abbr": "OH",
+        "governor": "Mike DeWine"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "OK": {
+        "state": "Oklahoma",
+        "abbr": "OK",
+        "governor": "Kevin Stitt"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "OR": {
+        "state": "Oregon",
+        "abbr": "OR",
+        "governor": "Kate Brown"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "PA": {
+        "state": "Pennsylvania",
+        "abbr": "PA",
+        "governor": "Tom Wolf"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "RI": {
+        "state": "Rhode Island",
+        "abbr": "RI",
+        "governor": "Gina Raimondo"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "SC": {
+        "state": "South Carolina",
+        "abbr": "SC",
+        "governor": "Henry McMaster"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "SD": {
+        "state": "South Dakota",
+        "abbr": "SD",
+        "governor": "Kristi Noem"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "TN": {
+        "state": "Tennessee",
+        "abbr": "TN",
+        "governor": "Bill Lee"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "UT": {
+        "state": "Utah",
+        "abbr": "UT",
+        "governor": "Gary Herbert"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "VT": {
+        "state": "Vermont",
+        "abbr": "VT",
+        "governor": "Phil Scott"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "VA": {
+        "state": "Virginia",
+        "abbr": "VA",
+        "governor": "Ralph Northam"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "WA": {
+        "state": "Washington",
+        "abbr": "WA",
+        "governor": "Jay Inslee"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "WV": {
+        "state": "West Virginia",
+        "abbr": "WV",
+        "governor": "Jim Justice"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "WI": {
+        "state": "Wisconsin",
+        "abbr": "WI",
+        "governor": "Tony Evers"
       },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
-      },
-      "AK": {
-        "state": "Alaska",
-        "abbr": "AK",
-        "governor": "Mike Dunleavy"
+      "WY": {
+        "state": "Wyoming",
+        "abbr": "WY",
+        "governor": "Mark Gordon"
       }
     }
   }

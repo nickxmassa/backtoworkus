@@ -1,6 +1,7 @@
 import React from "react";
 import CovidStats from '../covid';
 import News from '../news';
+import StateHeader from '../states';
 import Unemployment from '../unemployment';
 import {
   BrowserRouter as Router,
@@ -14,6 +15,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Dropdown from "react-bootstrap/Dropdown";
+
 
 // Params are placeholders in the URL that begin
 // with a colon, like the `:id` param defined in
@@ -86,19 +88,20 @@ export default function StateNav() {
   </Dropdown.Menu>
 </Dropdown>
 </Navbar>
-<ul>
-<li>doot</li>
-<li>doot</li>
-<li>doot</li>
-<li>doot</li>
-<li>doot</li>
-<li>doot</li>
-<li>doot</li>
-</ul>
-      <div>
+
+      <div 
+      style={{
+        paddingTop: "4.5rem"
+      }}
+        >
         <Switch>
           <Route path="/:id" render={(props) => 
             <Container>
+            <Row>
+              <Col>
+                <StateHeader {...props} />
+              </Col>
+            </Row>
               <Row>
                 <Col>
                   <CovidStats {...props} />

@@ -61,7 +61,7 @@ class News extends Component {
         <ul>
           {items.map(item => (
             <li key={item.source.url}>
-              {item.source.name} {item.title}
+              {item.source.name}: <a href={item.url} target="_blank">{item.title}</a>
             </li>
           ))}
         </ul>
