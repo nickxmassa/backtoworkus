@@ -18,12 +18,15 @@ class StateHeader extends Component {
 
   render() {
     const stateAbbr = this.props.location.pathname.substr(1).toUpperCase();
+    const emailLink = "mailto:info@backtowork.us?subject=Guidance update needed for " + StateData[0].states[stateAbbr].state;
     return (
       <Jumbotron fluid>
         <Container>
           <h1>{ StateData[0].states[stateAbbr].state }</h1>
           <p>Governor: { StateData[0].states[stateAbbr].governor }</p>
           <a href={ StateData[0].states[stateAbbr].reopen_plan } target="_blank">Reopening Guidance</a>
+          <p><em>Reopening Guidance link last updated { StateData[0].states[stateAbbr].plan_updated }</em>. 
+          To report out-of-date or inaccurate information, please email <a href={emailLink}>info@backtowork.us</a>.</p>
         </Container>
       </Jumbotron>
     );

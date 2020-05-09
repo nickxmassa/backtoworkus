@@ -87,6 +87,7 @@ export default function StateNav() {
     <Dropdown.Item><Link to={{ pathname: "/wy", full:"Wyoming" }}>Wyoming</Link></Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
+<a href='https://ko-fi.com/F1F01P2TO' target='_blank'><img height='36' style={{border:"0px",height:"36px"}} src='https://cdn.ko-fi.com/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </Navbar>
 
       <div 
