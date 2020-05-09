@@ -18,6 +18,7 @@ class News extends Component {
       const stateAbbr = this.props.location.pathname.substr(1).toUpperCase();
       const searchTerms = [];
       searchTerms.push("reopen " + StateData[0].states[stateAbbr].state);
+      searchTerms.push("reopening " + StateData[0].states[stateAbbr].state);
       searchTerms.push("back to work " + StateData[0].states[stateAbbr].state);
       searchTerms.push("covid " + StateData[0].states[stateAbbr].state);
       searchTerms.push("covid-19 " + StateData[0].states[stateAbbr].state);
@@ -26,7 +27,7 @@ class News extends Component {
       const query = searchTerms.join(" OR ");
 
     const stateSearch = this.props.location.full;
-    fetch("https://newsapi.org/v2/everything?q=" + query + "&apiKey=06553d518dfd4131a5fa14c25598cfaa")
+    fetch("https://newsapi.org/v2/everything?q=" + query + "&sortBy=publishedAt&apiKey=06553d518dfd4131a5fa14c25598cfaa")
       .then(res => res.json())
       .then(
         (result) => {
@@ -49,7 +50,6 @@ class News extends Component {
   }
 
   render() {
-    console.log(this.props);
     const { error, isLoaded, items } = this.state;
     if (error) {
       return <div>Error: {error.message}</div>;
