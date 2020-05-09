@@ -6,6 +6,7 @@ import {
   Link,
   useParams
 } from "react-router-dom";
+import StateData from "../data/stateData.json";
 import Card from "react-bootstrap/Card";
 
 class Unemployment extends Component {
@@ -20,7 +21,14 @@ class Unemployment extends Component {
         <div>
           <Card body>
           <h2>Other Resources</h2>
-            <a href={ link } target="_blank">{ stateAbbr } Unemployment Benefits</a>
+          <ul>
+            <li>
+            <a href={ link } target="_blank">Unemployment Benefits</a>
+            </li>
+            <li>
+            <a href={ StateData[0].states[stateAbbr].covid_guidance } target="_blank">COVID Resources</a>
+            </li>
+            </ul>
           </Card>
         </div>
       );

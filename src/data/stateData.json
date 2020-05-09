@@ -6,340 +6,390 @@
         "abbr": "AL",
         "governor": "Kay Ivey",
         "reopen_plan": "https://ltgov.alabama.gov/reopen-alabama-responsibly/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://covid19.alabama.gov/"
       },
       "AK": {
         "state": "Alaska",
         "abbr": "AK",
         "governor": "Mike Dunleavy",
         "reopen_plan": "https://covid19.alaska.gov/reopen/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx"
       },
       "AZ": {
         "state": "Arizona",
         "abbr": "AZ",
         "governor": "Doug Ducey",
         "reopen_plan":"https://arizonatogether.org/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://az.gov/government-0"
       },
       "AR": {
         "state": "Arkansas",
         "abbr": "AR",
         "governor": "Asa Hutchinson",
         "reopen_plan": "https://govstatus.egov.com/ar-covid-19",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://govstatus.egov.com/ar-covid-19"
       },
       "CA": {
         "state": "California",
         "abbr": "CA",
         "governor": "Gavin Newsom",
         "reopen_plan": "https://covid19.ca.gov/roadmap/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://covid19.ca.gov/"
       },
       "CO": {
         "state": "Colorado",
         "abbr": "CO",
-        "governor": "Jared Polis"
+        "governor": "Jared Polis",
+        "covid_guidance": "https://covid19.colorado.gov/"
       },
       "CT": {
         "state": "Connecticut",
         "abbr": "CT",
         "governor": "Ned Lamont",
         "reopen_plan": "https://portal.ct.gov/Coronavirus",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://portal.ct.gov/Coronavirus"
       },
       "DC": {
         "state": "Washington, DC",
         "abbr": "DC",
         "governor": "Muriel Bowser",
         "reopen_plan": "https://coronavirus.dc.gov/reopendc",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.dc.gov/"
       },
       "DE": {
         "state": "Delaware",
         "abbr": "DE",
         "governor": "John Carney",
         "reopen_plan": "https://governor.delaware.gov/delawares-recovery/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.delaware.gov/"
       },
       "FL": {
         "state": "Florida",
         "abbr": "FL",
         "governor": "Ron DeSantis",
         "reopen_plan": "https://floridahealthcovid19.gov/plan-for-floridas-recovery/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://floridahealthcovid19.gov/"
       },
       "GA": {
         "state": "Georgia",
         "abbr": "GA",
         "governor": "Brian Kemp",
         "reopen_plan": "https://georgia.gov/covid-19-state-services-georgia/covid-19-reviving-healthy-georgia",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://georgia.gov/covid-19-coronavirus-georgia/covid-19-state-services-georgia"
       },
       "HI": {
         "state": "Hawaii",
         "abbr": "HI",
         "governor": "David Ige",
         "reopen_plan": "https://hawaiicovid19.com/governors-office-news-release-gov-ige-gives-first-round-of-businesses-greenlight-to-re-open/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://hawaiicovid19.com/"
       },
       "ID": {
         "state": "Idaho",
         "abbr": "ID",
-        "governor": "Brad Little"
+        "governor": "Brad Little",
+        "covid_guidance": "https://coronavirus.idaho.gov/"
       },
       "IL": {
         "state": "Illinois",
         "abbr": "IL",
-        "governor": "J.B. Pritzker"
+        "governor": "J.B. Pritzker",
+        "covid_guidance": "https://coronavirus.illinois.gov/s/"
       },
       "IN": {
         "state": "Indiana",
         "abbr": "IN",
         "governor": "Eric Holcomb",
         "reopen_plan": "https://calendar.in.gov/site/gov/event/governor-announces-roadmap-to-safely-reopen-indiana/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.coronavirus.in.gov/"
       },
       "IA": {
         "state": "Iowa",
         "abbr": "IA",
         "governor": "Kim Reynolds",
         "reopen_plan": "https://rebound.idaho.gov/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.iowa.gov/"
       },
       "KS": {
         "state": "Kansas",
         "abbr": "KS",
         "governor": "Laura Kelly",
         "reopen_plan": "https://www.coronavirus.kdheks.gov/255/Plan-to-Reopen-FAQs",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.kdheks.gov/coronavirus/index.htm"
       },
       "KY": {
         "state": "Kentucky",
         "abbr": "KY",
         "governor": "Andy Beshear",
         "reopen_plan": "https://governor.ky.gov/covid19",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://govstatus.egov.com/kycovid19"
       },
       "LA": {
         "state": "Louisiana",
         "abbr": "LA",
-        "governor": "John Bel Edwards"
+        "governor": "John Bel Edwards",
+        "covid_guidance": "http://ldh.la.gov/Coronavirus/"
       },
       "ME": {
         "state": "Maine",
         "abbr": "ME",
         "governor": "Janet Mills",
         "reopen_plan": "https://www.maine.gov/decd/covid-19-prevention-checklists",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.maine.gov/covid19/"
       },
       "MD": {
         "state": "Maryland",
         "abbr": "MD",
         "governor": "Larry Hogan",
         "reopen_plan": "https://governor.maryland.gov/wp-content/uploads/2020/04/MD_Strong.pdf",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.maryland.gov/"
       },
       "MA": {
         "state": "Massachusetts",
         "abbr": "MA",
-        "governor": "Charlie Baker"
+        "governor": "Charlie Baker",
+        "covid_guidance": "https://www.mass.gov/info-details/covid-19-updates-and-information"
       },
       "MI": {
         "state": "Michigan",
         "abbr": "MI",
         "governor": "Gretchen Whitmer",
         "reopen_plan": "https://www.michigan.gov/documents/whitmer/MI_SAFE_START_PLAN_689875_7.pdf",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.michigan.gov/coronavirus/"
       },
       "MN": {
         "state": "Minnesota",
         "abbr": "MN",
         "governor": "Tim Walz",
         "reopen_plan": "https://mn.gov/deed/newscenter/covid/safework/business/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://mn.gov/covid19/"
       },
       "MS": {
         "state": "Mississippi",
         "abbr": "MS",
         "governor": "Tate Reeves",
         "reopen_plan": "https://www.coronavirus.ms.gov/2020-04/governor-reeves-signs-safer-home-order-begin-reopening-states-economy",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.coronavirus.ms.gov/"
       },
       "MO": {
         "state": "Missouri",
         "abbr": "MO",
         "governor": "Mike Parson",
         "reopen_plan": "https://showmestrong.mo.gov/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/"
       },
       "MT": {
         "state": "Montana",
         "abbr": "MT",
         "governor": "Steve Bullock",
         "reopen_plan": "https://covid19.mt.gov/Portals/223/Documents/Reopening%20Montana%20Phased%20Approach%205.6.20.pdf?ver=2020-05-06-141915-700",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://covid19.mt.gov/"
       },
       "NE": {
         "state": "Nebraska",
         "abbr": "NE",
         "governor": "Pete Ricketts",
         "reopen_plan": "http://dhhs.ne.gov/Pages/COVID-19-Nebraska-Guidance-Documents.aspx",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "http://dhhs.ne.gov/Pages/Coronavirus.aspx"
       },
       "NV": {
         "state": "Nevada",
         "abbr": "NV",
         "governor": "Steve Sisolak",
         "reopen_plan": "https://nvhealthresponse.nv.gov/news-resources/governor-directives-and-declarations/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://nvhealthresponse.nv.gov/"
       },
       "NH": {
         "state": "New Hampshire",
         "abbr": "NH",
         "governor": "Chris Sununu",
         "reopen_plan": "https://www.governor.nh.gov/news-media/press-2020/20200501-stay-at-home.htm",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.nh.gov/covid19/"
       },
       "NJ": {
         "state": "New Jersey",
         "abbr": "NJ",
         "governor": "Phil Murphy",
         "reopen_plan": "http://d31hzlhk6di2h5.cloudfront.net/20200427/db/2d/77/6c/2a8a498ff2edda855c3f456d/The_Road_Back_-_Restoring_Economic_Health_Through_Public_Health.pdf",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://covid19.nj.gov/"
       },
       "NM": {
         "state": "New Mexico",
         "abbr": "NM",
         "governor": "Michelle Lujan Grisham",
         "reopen_plan": "https://www.rrnm.gov/4523/New-Mexico-Reopening-Plan",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://cv.nmhealth.org/"
       },
       "NY": {
         "state": "New York",
         "abbr": "NY",
         "governor": "Andrew Cuomo",
         "reopen_plan": "https://www.governor.ny.gov/news/amid-ongoing-covid-19-pandemic-governor-cuomo-outlines-phased-plan-re-open-new-york-starting",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.health.ny.gov/home"
       },
       "NC": {
         "state": "North Carolina",
         "abbr": "NC",
         "governor": "Roy Cooper",
         "reopen_plan": "https://files.nc.gov/governor/documents/files/NC-3-PHASE-PLAN.pdf",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.nc.gov/covid19"
       },
       "ND": {
         "state": "North Dakota",
         "abbr": "ND",
         "governor": "Doug Burgum",
         "reopen_plan": "https://www.governor.nd.gov/news/burgum-extends-business-restrictions-10-days-outlines-path-forward-reopening",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.health.nd.gov/diseases-conditions/coronavirus"
       },
       "OH": {
         "state": "Ohio",
         "abbr": "OH",
         "governor": "Mike DeWine",
         "reopen_plan": "https://coronavirus.ohio.gov/wps/portal/gov/covid-19/responsible-restart-ohio/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home"
       },
       "OK": {
         "state": "Oklahoma",
         "abbr": "OK",
         "governor": "Kevin Stitt",
         "reopen_plan": "https://www.okcommerce.gov/covid19/ours-plan/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.health.ok.gov/"
       },
       "OR": {
         "state": "Oregon",
         "abbr": "OR",
         "governor": "Kate Brown",
         "reopen_plan": "https://www.oregon.gov/newsroom/Pages/NewsDetail.aspx?newsid=36373",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://govstatus.egov.com/or-covid-19"
       },
       "PA": {
         "state": "Pennsylvania",
         "abbr": "PA",
         "governor": "Tom Wolf",
         "reopen_plan": "https://www.governor.pa.gov/process-to-reopen-pennsylvania/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx"
       },
       "RI": {
         "state": "Rhode Island",
         "abbr": "RI",
         "governor": "Gina Raimondo",
         "reopen_plan": "https://www.ri.gov/press/view/38234",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://health.ri.gov/covid/"
       },
       "SC": {
         "state": "South Carolina",
         "abbr": "SC",
         "governor": "Henry McMaster",
         "reopen_plan": "https://accelerate.sc.gov/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19"
       },
       "SD": {
         "state": "South Dakota",
         "abbr": "SD",
         "governor": "Kristi Noem",
         "reopen_plan": "https://covid.sd.gov/docs/COVID_SDPlan_BackToNormal.pdf",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://covid.sd.gov/"
       },
       "TN": {
         "state": "Tennessee",
         "abbr": "TN",
         "governor": "Bill Lee",
         "reopen_plan": "https://www.tn.gov/governor/covid-19/economic-recovery.html",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.tn.gov/governor/covid-19.html"
       },
       "UT": {
         "state": "Utah",
         "abbr": "UT",
         "governor": "Gary Herbert",
         "reopen_plan": "https://coronavirus.utah.gov/utah-leads-together/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.utah.gov/"
       },
       "VT": {
         "state": "Vermont",
         "abbr": "VT",
         "governor": "Phil Scott",
         "reopen_plan": "https://accd.vermont.gov/covid-19/business/restart",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.healthvermont.gov/response/coronavirus-covid-19"
       },
       "VA": {
         "state": "Virginia",
         "abbr": "VA",
         "governor": "Ralph Northam",
         "reopen_plan": "https://www.governor.virginia.gov/newsroom/all-releases/2020/april/headline-856337-en.html",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://www.virginia.gov/coronavirus/"
       },
       "WA": {
         "state": "Washington",
         "abbr": "WA",
         "governor": "Jay Inslee",
         "reopen_plan": "https://coronavirus.wa.gov/what-you-need-know/safe-start",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://coronavirus.wa.gov/"
       },
       "WV": {
         "state": "West Virginia",
         "abbr": "WV",
         "governor": "Jim Justice",
         "reopen_plan": "https://governor.wv.gov/Pages/The-Comeback.aspx",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://dhhr.wv.gov/COVID-19/Pages/default.aspx"
       },
       "WI": {
         "state": "Wisconsin",
         "abbr": "WI",
         "governor": "Tony Evers",
         "reopen_plan": "https://wedc.org/reopen-guidelines/",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://govstatus.egov.com/wi-covid-19"
       },
       "WY": {
         "state": "Wyoming",
         "abbr": "WY",
         "governor": "Mark Gordon",
         "reopen_plan": "https://governor.wyo.gov/media/news-releases/2020-news-releases/governor-gordon-unveils-plan-to-ease-covid-19-restrictions",
-        "plan_updated": "05/09"
+        "plan_updated": "05/09",
+        "covid_guidance": "https://covid19.wyo.gov/"
       }
     }
   }
