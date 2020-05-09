@@ -23,11 +23,34 @@ class News extends Component {
       searchTerms.push("covid " + StateData[0].states[stateAbbr].state);
       searchTerms.push("covid-19 " + StateData[0].states[stateAbbr].state);
       searchTerms.push(StateData[0].states[stateAbbr].governor);
-
       const query = searchTerms.join(" OR ");
 
+      // Testing removing non-local news sources
+      const removeSources = [];
+      removeSources.push('seekingalpha.com');
+      removeSources.push('fool.com');
+      removeSources.push('ctvnews.ca');
+      removeSources.push('nakedcapitalism.com');
+      removeSources.push('politico.com');
+      removeSources.push('dailymail.co.uk');
+      removeSources.push('salon.com');
+      removeSources.push('hotair.com');
+      removeSources.push('mirror.co.uk')
+      removeSources.push('cnn.com');
+      removeSources.push('usatoday.com');
+      removeSources.push('businessinsider.com.au');
+      removeSources.push('npr.org');
+      removeSources.push('foxnews.com');
+      removeSources.push('yahoo.com');
+      removeSources.push('theatlantic.com');
+      removeSources.push('motherjones.com');
+      removeSources.push('freerepublic.com');
+
+      const removedSources = removeSources.join(",");
+
+
     const stateSearch = this.props.location.full;
-    fetch("https://newsapi.org/v2/everything?q=" + query + "&sortBy=publishedAt&apiKey=06553d518dfd4131a5fa14c25598cfaa")
+    fetch("https://newsapi.org/v2/everything?q=" + query + "&sortBy=publishedAt&excludeDomains=" + removedSources + "&apiKey=06553d518dfd4131a5fa14c25598cfaa")
       .then(res => res.json())
       .then(
         (result) => {
