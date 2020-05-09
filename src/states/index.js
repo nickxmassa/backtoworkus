@@ -22,6 +22,7 @@ class StateHeader extends Component {
       <Jumbotron fluid>
         <Container>
           <h1>{ StateData[0].states[stateAbbr].state }</h1>
+          <p>Governor: { StateData[0].states[stateAbbr].governor }</p>
           <a href={ StateData[0].states[stateAbbr].reopen_plan } target="_blank">Reopening Guidance</a>
         </Container>
       </Jumbotron>

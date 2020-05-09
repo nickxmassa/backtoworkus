@@ -36,6 +36,7 @@ class CovidStats extends Component {
   render() {
     const { error, isLoaded, items } = this.state;
     const stateData = items.filter(item => item.state === this.props.location.pathname.substr(1).toUpperCase());
+    
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
@@ -44,9 +45,10 @@ class CovidStats extends Component {
       return (
         <Card body>
         <div>
-          <p>State: {stateData[0].state}</p>
+          <h2>Latest COVID-19 Numbers</h2>
           <p>Positives: {stateData[0].positive}</p>
           <p>Total Tested: {stateData[0].totalTestResults}</p>
+          <p><em>Last updated: {stateData[0].lastUpdateEt.slice(0, -5)}</em></p>
         </div>
         </Card>
       );
