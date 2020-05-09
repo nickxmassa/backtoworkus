@@ -106,7 +106,7 @@ export default function StateNav() {
                 <Col>
                   <CovidStats {...props} />
                 </Col>
-                <Col>
+                <Col xs={6}>
                   <News {...props} />
                 </Col>
                 <Col>

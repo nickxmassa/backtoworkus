@@ -19,6 +19,7 @@ class Unemployment extends Component {
       return (
         <div>
           <Card body>
+          <h2>Other Resources</h2>
             <a href={ link } target="_blank">{ stateAbbr } Unemployment Benefits</a>
           </Card>
         </div>
