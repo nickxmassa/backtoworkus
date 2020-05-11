@@ -107,7 +107,7 @@ export default function StateNav() {
                 <Col>
                   <CovidStats {...props} />
                 </Col>
-                <Col xs={6}>
+                <Col lg={6} md={12}>
                   <News {...props} />
                 </Col>
                 <Col>
@@ -116,6 +116,19 @@ export default function StateNav() {
               </Row>
             </Container>
           } />
+          <Route path="/">
+          <Container>
+          <Row>
+          <Col>
+          <div>
+            <h1>Welcome to BacktoWork.us</h1>
+            <p>This site aims to deliver accurate, up-to-date information regarding states' coronavirus recovery efforts
+            and paths to reopening. To begin, choose your state by clicking on the green button in the upper left-hand corner. </p>
+            </div>
+            </Col>
+            </Row>
+            </Container>
+          </Route>
         </Switch>
       </div>
     </Router>

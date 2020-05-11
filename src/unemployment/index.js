@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import StateData from "../data/stateData.json";
 import Card from "react-bootstrap/Card";
+import { LifePreserver } from "react-bootstrap-icons";
 
 class Unemployment extends Component {
   constructor(props) {
@@ -20,13 +21,16 @@ class Unemployment extends Component {
       return (
         <div>
           <Card body>
-          <h2>Other Resources</h2>
+          <h2><LifePreserver /> Other Resources</h2>
           <ul>
             <li>
             <a href={ link } target="_blank">Unemployment Benefits</a>
             </li>
             <li>
             <a href={ StateData[0].states[stateAbbr].covid_guidance } target="_blank">COVID Resources</a>
+            </li>
+            <li>
+            <a href="https://www.benefits.gov/help/faq/Coronavirus-resources">Other Benefits</a>
             </li>
             </ul>
           </Card>

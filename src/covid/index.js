@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
+import { GraphDown } from "react-bootstrap-icons";
 
 class CovidStats extends Component {
   constructor(props) {
@@ -45,9 +46,10 @@ class CovidStats extends Component {
       return (
         <Card body>
         <div>
-          <h2>Latest Numbers</h2>
+          <h2><GraphDown /> Latest Numbers</h2>
           <p><strong>Positive Tests:</strong> {stateData[0].positive}</p>
           <p><strong>Total Tested:</strong> {stateData[0].totalTestResults}</p>
+          <p><strong>Currently Hospitalized:</strong> {stateData[0].hospitalizedCurrently}</p>
           <p><strong>Data Quality:</strong> {stateData[0].dataQualityGrade}</p>
           <p><em>Last updated: {stateData[0].lastUpdateEt.slice(0, -5)}</em></p>
         </div>

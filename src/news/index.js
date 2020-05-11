@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import StateData from '../data/stateData.json';
 import SearchTerms from '../data/searchTerms.json';
 import BlockedSources from '../data/blockedSources.json';
+import { Newspaper } from "react-bootstrap-icons";
 
 class News extends Component {
   constructor(props) {
@@ -91,7 +92,7 @@ class News extends Component {
     } else {
       return (
         <Card body>
-        <h2>Latest News</h2>
+        <h2><Newspaper /> Latest News</h2>
         <ul>
           {items.map(item => (
             <li key={item.source.url}>
